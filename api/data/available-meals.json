@@ -1,0 +1,142 @@
+[
+  {
+    "id": "m1",
+    "name": "Bakmoy",
+    "price": "12000",
+    "description": " Nasi dengan topping daging ayam fillet kecap, terkadang ditambahkan tahu dan telur puyuh.",
+    "image": "images/bakmoy.jpg"
+  },
+  {
+    "id": "m2",
+    "name": "Bakso Urat",
+    "price": "10000",
+    "description": "Bakso urat merupakan kreasi baso dengan bahan dari tetelan atau urat sapi",
+    "image": "images/bakso-urat.jpg"
+  },
+  {
+    "id": "m3",
+    "name": "Bubur Ayam",
+    "price": "10000",
+    "description": "Bubur nasi adalah beras yang dimasak dengan air yang banyak sehingga memiliki tekstur yang lembut dan berair.",
+    "image": "images/bubur-ayam.jpg"
+  },
+  {
+    "id": "m4",
+    "name": "Bubur Ketan Hitam",
+    "price": "7000",
+    "description": "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
+    "image": "images/bubur-ketan-hitam.jpg"
+  },
+  {
+    "id": "m5",
+    "name": "Es Alpukat",
+    "price": "5000",
+    "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
+    "image": "images/es-alpukat.jpg"
+  },
+  {
+    "id": "m6",
+    "name": "Es Pisang Ijo",
+    "price": "8000",
+    "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
+    "image": "images/es-pisang-ijo.jpg"
+  },
+  {
+    "id": "m7",
+    "name": "Gulai Daging",
+    "price": "20000",
+    "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
+    "image": "images/gulai-daging.jpg"
+  },
+  {
+    "id": "m8",
+    "name": "Kelepon",
+    "price": "6000",
+    "description": "An assortment of fresh sushi rolls including California, Spicy Tuna, and Eel Avocado.",
+    "image": "images/kelepon.jpg"
+  },
+  {
+    "id": "m9",
+    "name": "Keroket",
+    "price": "7000",
+    "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
+    "image": "images/keroket.jpg"
+  },
+  {
+    "id": "m10",
+    "name": "Kue Putu",
+    "price": "5000",
+    "description": "A hearty bowl filled with quinoa, roasted veggies, avocado, and a tahini dressing.",
+    "image": "images/kue-putu.jpg"
+  },
+  {
+    "id": "m11",
+    "name": "Lumpur Lapindo",
+    "price": "6000",
+    "description": "A Spanish delicacy filled with saffron-infused rice, shrimp, mussels, and chorizo.",
+    "image": "images/lumpur-lapindo.jpg"
+  },
+  {
+    "id": "m12",
+    "name": "Mie Siram",
+    "price": "12000",
+    "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
+    "image": "images/mie-siram.jpg"
+  },
+  {
+    "id": "m13",
+    "name": "Perkedel",
+    "price": "2000",
+    "description": "A warming bowl of ramen with miso broth, tender pork, soft-boiled egg, and green onions.",
+    "image": "images/perkedel.jpg"
+  },
+  {
+    "id": "m14",
+    "name": "Rawon",
+    "price": "25000",
+    "description": "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream.",
+    "image": "images/rawon.jpg"
+  },
+  {
+    "id": "m15",
+    "name": "Rendang",
+    "price": "20000",
+    "description": "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce.",
+    "image": "images/rendang.jpg"
+  },
+  {
+    "id": "m16",
+    "name": "Sop Buntut",
+    "price": "14000",
+    "description": "A creamy soup made from lobster stock, aromatic vegetables, and a touch of brandy.",
+    "image": "images/sop-buntut.jpg"
+  },
+  {
+    "id": "m17",
+    "name": "Rujak",
+    "price": "7000",
+    "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
+    "image": "images/rujak.jpg"
+  },
+  {
+    "id": "m18",
+    "name": "Sate Ayam",
+    "price": "17000",
+    "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
+    "image": "images/sate-ayam.jpg"
+  },
+  {
+    "id": "m19",
+    "name": "Tauto",
+    "price": "15000",
+    "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
+    "image": "images/tauto.jpg"
+  },
+  {
+    "id": "m20",
+    "name": "Tempe Mendoan",
+    "price": "12000",
+    "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
+    "image": "images/tempe-mendoan.jpg"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/app.js", "use": "@now/node" },
+    { "src": "api/meals.js", "use": "@now/node" },
+    { "src": "api/orders.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/api/meals", "dest": "api/meals.js" },
+    { "src": "/api/orders", "dest": "api/orders.js" },
+    { "src": "/api/public/(.*)", "dest": "public/$1" },
+    { "src": "/api/(.*)", "dest": "api/app.js" },
+    { "src": "/(.*)", "dest": "api/app.js" }
+  ]
+}
