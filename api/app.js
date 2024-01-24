@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
 import bodyParser from "body-parser";
 import express from "express";
 
@@ -14,12 +15,15 @@ app.use((req, res, next) => {
   next();
 });
 
+// Path ke file available-meals.json
+const mealsFilePath = path.join(__dirname, "data", "available-meals.json");
+
 app.get("/", (req, res) => {
   res.send("Hey this is my API running 🥳");
 });
 
 app.get("/meals", async (req, res) => {
-  const meals = await readFile("./data/available-meals.json", "utf8");
+  const meals = await readFile(mealsFilePath, "utf8");
   res.json(JSON.parse(meals));
 });
 

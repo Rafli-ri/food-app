@@ -1,15 +1,31 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/app.js", "use": "@now/node" },
-    { "src": "api/meals.js", "use": "@now/node" },
-    { "src": "api/orders.js", "use": "@now/node" }
+    {
+      "src": "backend/api/app.js",
+      "use": "@vercel/node"
+    }
   ],
   "routes": [
-    { "src": "/api/meals", "dest": "api/meals.js" },
-    { "src": "/api/orders", "dest": "api/orders.js" },
-    { "src": "/api/public/(.*)", "dest": "public/$1" },
-    { "src": "/api/(.*)", "dest": "api/app.js" },
-    { "src": "/(.*)", "dest": "api/app.js" }
+    {
+      "src": "/api/meals",
+      "dest": "backend/api/meals.js"
+    },
+    {
+      "src": "/api/orders",
+      "dest": "backend/api/orders.js"
+    },
+    {
+      "src": "/api/data",
+      "dest": "backend/api/data"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "backend/public/images/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "backend/public/$1"
+    }
   ]
 }
